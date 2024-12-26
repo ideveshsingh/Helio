@@ -1,0 +1,443 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+
+/* Navigation Section Start Here */
+    #my-navigation{
+        width:100%;
+        border:none;
+        background:none;
+        top:15px;
+        position:absolute;
+        z-index:1;
+        /* background-color: red;; */
+
+    }
+
+
+    #my-navigation .navbar-toggle{
+        display:block;
+        border:0;
+
+    }
+
+    #my-navigation .navbar-toggle:hover{
+        background:none;
+        cursor: pointer;
+    }
+
+    #my-navigation .navbar-header{
+        float:none;
+    }
+
+    #my-navigation .navbar-right{
+        float:left !important;
+    }
+
+    #my-navigation .icon-bar-left{
+        float:left;
+    }
+
+    #my-navigation .icon-right{
+        position:relative;
+        top:-3px;
+        padding-left:6px;
+    }
+
+    #my-navigation .icon-bar{
+        background-color:#fff;
+    }
+
+    #my-navigation a{
+        color:#fff;
+    }
+
+/* Navigation Section Ends */
+
+
+/* Carousel Section Start Here */
+
+    .my-container{
+        padding:0;
+        color:#fff;
+    }
+
+    .carousel .item{
+        width:100vw;
+        height:100vh;
+        background-size:cover;
+        background-image:url("../Image/slide01.jpg");
+    }
+
+    .carousel .item2{
+        background-image:url("../Image/slide02.jpg");
+    }
+
+    .carousel .item3{
+        background-image:url("../Image/slide03.jpg");
+    }
+
+    .carousel .item4{
+        background-image:url("../Image/slide04.jpg");
+    }
+
+    .carousel .item5{
+        background-image:url("../Image/slide05.jpg");
+    }
+
+/* Carousel Section Ends */
+
+
+
+
+/* Banner Start  Here*/
+
+    .banner{
+        width:60%;
+        text-align:center;
+        position:absolute;
+        top:40%;
+        left:22%;
+        z-index:20;
+       
+    }
+
+    .banner hr{
+        width:35%;
+    }
+
+    .banner p{
+        font-weight:200;
+        font-size:15px;
+        letter-spacing:2.5px;
+    }
+
+    .banner h1{
+        font-size:10rem;
+        font-weight:300;
+        margin-top:5px;
+    }
+
+/* Banner Ends*/
+
+
+
+
+
+/* Section Section Start Here */
+
+    .master{
+        width:100%;
+        padding-bottom:90px;
+        background-color:#f5f5f5;
+    }
+
+   .second-same-box{
+       margin-top:70px;
+   }
+
+    .left img , .right img{
+        width:100%;
+    }
+
+    .two-section .left{
+        width:100%;
+        text-align:center;
+        background-color:#fff;
+    }
+
+     .two-section .right{
+        width:100%;
+        margin-left:3%;
+        text-align:center;
+        background-color:#fff;
+    }
+
+    .right h5, .left h5{
+        color:gray;
+        font-weight:400;
+        font-size:13px;
+        letter-spacing:3px;
+        padding-top:20px;
+    }
+
+    .right hr, .left hr{
+        color:gray;
+        width:50%;
+        margin:0 auto;
+    }
+
+    .right h1, .left h1{
+        font-weight:500;
+        font-size:27px;
+       
+    }
+
+    .right p, .left p{
+         color:#B8B8B8;
+         padding-top:20px;
+         font-size:15px;
+         text-align:left;
+         padding-left:50px;
+         line-height:23px;
+    }
+
+    .right button, .left button{
+        width:150px;
+        border-radius:0;
+        border:2px solid #dfdfdf;
+        background-color:#fff;
+        font-weight:500;
+        margin:20px 0 40px 0;
+        font-size:17px;
+        font-family:'Poppins', sans-serif;
+    }
+
+/* Section Section Start Here */
+
+
+
+
+/* Third Section Start Here */
+
+    .third-section{
+        color:#fff;
+        text-align:center;
+        padding-bottom:5%;
+        background-image:url("../Image/bg.jpg");
+        background-size:cover;
+        background-position:center;
+        background-attachment: fixed;
+    }
+
+    .text p{
+        color:#B8B8B8;
+        padding-top:7%;
+        letter-spacing:2px;
+    }
+
+    .text hr{
+        width:45%;
+        color:#B8B8B8;
+        margin:0 auto;
+    }
+
+    .text h2{
+        font-weight:300;
+
+    }
+
+
+/* Third Section Ends */
+
+
+
+
+/* Fourth Section Start Here */
+
+    .fourth-section{
+        width:100%;
+        padding-bottom:40px;
+        background-color:#f5f5f5f5;
+    }
+
+   .four-image-section{
+        padding-top:100px;
+    }
+
+    .four-image-section .morbi h2{
+        margin-bottom:50px;
+    }
+
+    .four-image-section .morbi p{
+        color:#B8B8B8;
+        letter-spacing:2px;
+    }
+
+    .four-image-section .morbi hr{
+        width:50%;
+        color:gray;
+        margin:0 auto;
+    }
+
+    .four-image-section .morbi h2{
+        font-weight:400;
+    }
+
+    .four-image-section .four-images img{
+        width:100%;
+        margin-bottom:10%;
+        border:15px solid #fff;
+    }
+
+
+    .four-image-section .four-images .left{
+        margin-left:3%;
+    }
+
+
+
+/* Fourth Section Ends/
+
+
+
+
+/* Footer Section Start Here */
+    .footer{
+        width:100%;
+        padding-bottom:50px;
+        margin-bottom:20px;
+        background-color:#000;
+    }
+
+    .Social-icon{
+        padding-top:60px;
+       
+    }
+
+    .fa{
+        color:gray;
+        padding:1%;
+        font-size:30px;
+        font-weight:600;
+    }
+
+    .Social-icon p{
+      
+        color:gray;
+        font-size:17px;
+        padding-top:20px;
+    }
+
+/* Footer Section Start Here */
+    
+
+
+
+
+/* Media Query Resolution For  Medium Device  Start Here*/
+        
+@media  only screen and (max-width:992px){
+
+    .banner hr{
+        width:50%;
+    }
+    
+    .right p, .left p{
+        font-size:14px;
+        padding-left:9%;
+    }
+
+    .two-section .right{
+        margin-left:3.2%;
+    }
+
+    .right h5, .left h5{
+        letter-spacing:1.5px;
+        font-size:13px;
+    }
+
+    .right hr, .left hr{
+        color:gray;
+        width:50%;
+    }
+
+    .four-image-section .four-images .left{
+        margin-left:3.2%;
+    }
+  
+}
+
+/* Media Query Resolution For  Medium Device  Ends*/
+    
+
+
+
+
+/* Media Queries Resolution For Small Device Start Here */
+    @media only screen and (max-width:768px){
+        .banner p{
+            font-size:11px;
+        }
+
+        .banner hr{
+            width:50%;
+        }
+        
+        /* Second Section */
+            .right p, .left p{
+                font-size:15px;
+                padding-left:21%;
+            }
+
+            .right h5, .left h5{
+                letter-spacing:2px;
+                font-size:15px;
+            }
+            .two-section .right{
+                margin:0 auto;
+            
+            }
+            .two-section .left{
+                margin:0 auto;
+            
+            }
+
+            .right hr, .left hr{
+                color:gray;
+                width:40%;
+            }
+
+        /* Third Section */
+            .text p{
+                padding-top:8%;
+                font-size:13px;
+                letter-spacing:2px;
+            }
+
+            .text hr{
+                width:70%;
+            }
+
+
+        /*Fourth Section  */
+            .four-image-section .four-images .left{
+                margin-left:0;
+            }
+
+            .four-image-section .four-images .left{
+                margin:0 auto;
+            }
+    }
+/* Media Queries Resolution For Small Device Ends */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

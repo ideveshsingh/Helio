@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+#my-navigation{
+    width: 100%;
+    position:absolute;
+    /* top:10px; */
+    border:none;
+    background: none;
+    z-index: 1;
+
+
+}
+
+.master{
+    width: 100%;
+    padding: 0;
+}
+
+.carousel .item{
+    width: 100%;
+    height: 100vh;
+    background-image:url("../Image/slide01.jpg");
+}
+
+.carousel .item1{
+    background-image: url(../Image/slide02.jpg);
+}
+
+.carousel .item2{
+    background-image: url(../Image/slide03.jpg);
+}
+
+.carousel .item3{
+    background-image: url(../Image/slide04.jpg);
+}
+
+.carousel .item4{
+    background-image: url(../Image/slide05.jpg);
+}
